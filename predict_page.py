@@ -61,7 +61,7 @@ def show_predict_page():
         pred = model_loaded.predict(X_res)
 
         if pred[0] == 'positive':
-            st.subheader("Prediction is positive. Consult heart specialist.")
+            st.subheader("Prediction is positive. Consult a cardiologist.")
         else:
             st.subheader("Prediction is negative. Hurahh!! your heart is healthy.")
 
