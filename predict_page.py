@@ -45,11 +45,11 @@ def show_predict_page():
 
     prel = st.number_input("Enter your diastolic BP.", 0,key="pres_input3")
 
-    glu = st.number_input("Enter your blood sugar levels.", 0,key="pres_input4")
+    glu = st.number_input("Enter your blood sugar levels.", 0.00,key="pres_input4")
 
-    kc = st.number_input("Enter your CK-MB levels.", 0,key="pres_input5")
+    kc = st.number_input("Enter your CK-MB levels.", 0.00,key="pres_input5")
 
-    troponin = st.number_input("Enter your Test-Troponin levels.", 0,key="pres_input6")
+    troponin = st.number_input("Enter your Test-Troponin levels.", 0.000,key="pres_input6")
 
 
 
